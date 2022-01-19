@@ -3,7 +3,7 @@ import { BloodType } from "./BloodType";
 import {Sequelize, Model, DataTypes} from "sequelize";
 
 
-interface DonorAttributes extends Model{
+export interface DonorAttributes extends Model{
     id: number;
     name: string;
     age: number;
